@@ -6,7 +6,7 @@ namespace Tyuiu.KimmelDS.Sprint2.Task0.V9.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
-            return new bool[] { x == y, x != y, x < y, x > y, x <= y, x >= y };
+            return [x == y, x != y, x < y, x > y, x <= y, x >= y];
         }
     }
 }
