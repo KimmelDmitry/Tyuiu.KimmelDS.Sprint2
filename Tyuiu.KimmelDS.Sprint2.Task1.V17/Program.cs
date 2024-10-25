@@ -1,4 +1,4 @@
-﻿using Tyuiu.KimmelDS.Sprint2.Task1.V17.Lib;
+﻿using Tbuiu.KimmelDS.Sprint2.Task1.V17.Lib;
 namespace Tyuiu.KimmelDS.Sprint2.Task1.V17
 {
     class Program
@@ -41,8 +41,8 @@ namespace Tyuiu.KimmelDS.Sprint2.Task1.V17
 
             DataService ds = new DataService();
 
-            var result = ds.YOURFUNCTION();
-            Console.WriteLine(result);
+            var result = ds.GetLogicOperations(a, b, c, d);
+            Console.WriteLine(string.Join(", ",result.Select(x => x.ToString())));
             Console.ReadKey();
         }
     }
