@@ -33,7 +33,9 @@ namespace Tyuiu.KimmelDS.Sprint2.Task2.V26.Lib
             if ((x >= 7 && x <= 9 && y == 10))
                 return true;
 
-            return false;
+            if ((x >= 7 && x <= 9 && y == 6)) return true;
+
+                return false;
         }
     }
 }
